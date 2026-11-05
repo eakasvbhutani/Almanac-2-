@@ -1,2 +1,2 @@
 Generator: python3 teen.py (needs pillow, ffmpeg, and NotoColorEmoji.ttf from googlefonts/noto-emoji placed in fonts/)
-Music: python3 music.py → beat.wav (needs numpy, scipy); then ffmpeg -i teen_invite.mp4 -i beat.wav -c:v copy -c:a aac -shortest teen_invite_music.mp4
+Music: python3 music2.py → beat2.wav (needs numpy, scipy); then ffmpeg -i teen_invite.mp4 -i beat2.wav -c:v copy -c:a aac -shortest teen_invite_music.mp4
